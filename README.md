@@ -15,8 +15,12 @@ Index(['location', 'MinTemp', 'MaxTemp', 'Rainfall', 'WindGustSpeed',
       dtype='object')
 
 
+
+
 weather.csv
 기상청 데이터에서 가져온 일 별 , 시간 별 데이터를 합친 데이터
+
+
 
 
 
@@ -28,12 +32,19 @@ laction(지역),WindGustDir,WindDir9am,WindDir3pm 의 경우는 labeling 하였�
 나머지 숫자 결측치는 평균값을 사용 하였습니다.
 
 
+
+
+
 MiceImputed_weather.csv 의 경우:
 IterativeImputer을 사용하여 전처리한 데이터 
 
 
+
+
 drop_Micelmputed_weather.csv 의 경우:
 MiceImputed_weather.csv에서 이상치를 제거한 데이터
+
+
 
 
 scaled_Micelmputed_weather.csv 의 경우:
