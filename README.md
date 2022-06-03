@@ -24,7 +24,7 @@ weather.csv
 
 
 
-전처리 
+##전처리 
 
 pre_labeled_weather.csv :
 laction(지역),WindGustDir,WindDir9am,WindDir3pm 의 경우는 labeling 하였습니다.
