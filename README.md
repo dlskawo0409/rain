@@ -26,7 +26,7 @@ weather.csv
 
 전처리 
 
-pre_labeled_weather.csv 의 경우 :
+pre_labeled_weather.csv :
 laction(지역),WindGustDir,WindDir9am,WindDir3pm 의 경우는 labeling 하였습니다.
 결측치의 경우 카테고리 값(laction(지역),WindGustDir,WindDir9am,WindDir3pm) 은 최빈값을 
 나머지 숫자 결측치는 평균값을 사용 하였습니다.
@@ -35,7 +35,7 @@ laction(지역),WindGustDir,WindDir9am,WindDir3pm 의 경우는 labeling 하였�
 
 
 
-MiceImputed_weather.csv 의 경우:
+MiceImputed_weather.csv:
 
 IterativeImputer을 사용하여 전처리한 데이터 
 
@@ -43,12 +43,12 @@ IterativeImputer을 사용하여 전처리한 데이터
 
 
 
-drop_Micelmputed_weather.csv 의 경우:
+drop_Micelmputed_weather.csv:
 MiceImputed_weather.csv에서 이상치를 제거한 데이터
 
 
 
 
 
-scaled_Micelmputed_weather.csv 의 경우:
+scaled_Micelmputed_weather.csv:
 MiceImputed_weather.csv에서 로그 스케일링을 한 데이터
