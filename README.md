@@ -36,13 +36,16 @@ laction(지역),WindGustDir,WindDir9am,WindDir3pm 의 경우는 labeling 하였�
 
 
 MiceImputed_weather.csv 의 경우:
+
 IterativeImputer을 사용하여 전처리한 데이터 
+
 
 
 
 
 drop_Micelmputed_weather.csv 의 경우:
 MiceImputed_weather.csv에서 이상치를 제거한 데이터
+
 
 
 
